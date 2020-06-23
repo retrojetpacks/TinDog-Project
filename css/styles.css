@@ -1,0 +1,233 @@
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+}
+
+p{
+  color: #afafaf;
+}
+
+
+/* Containers */
+.container-fluid{
+  padding:7% 15%;
+}
+
+.white{
+  color: #333;
+}
+
+.color{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+/* Title Section */
+
+#title {
+  z-index: -1;
+  text-align: left;
+}
+
+
+#tagline{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.sitename{
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: ubuntu;
+}
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-nav{
+  font-size: 1.5rem;
+}
+
+.nav-item{
+  padding: 0 10px 0 10px;
+  font-weight: 100;
+}
+
+.dl-btn{
+  margin: 10px 10px 5px 0 ;
+}
+
+.btn-dark:hover{
+  background-color: white;
+  color: black;
+}
+
+/* Title Image */
+.dog-phone{
+  position: absolute;
+  transform: rotate(25deg);
+  width: 60%;
+  right: 15%;
+  padding-top: 40px;
+}
+
+.dog-phone-col{
+  min-height: 200px;
+}
+
+/* Features Section */
+
+#features{
+  position: relative;
+  z-index: 1;
+}
+
+.feature-text{
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.s2-col{
+  padding: 0 20px 0 20px;
+}
+
+.s2-icon{
+color: orange;
+padding: 0 0 1rem 0;
+}
+
+.s2-icon:hover{
+  color: #ef8172;
+}
+
+/* Testimonials */
+
+#testimonials{
+  z-index: 0.5;
+}
+
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 550;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 30px;
+}
+
+/* Pricing */
+#pricing{
+  padding: 100px 20%;
+}
+
+.price-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 550;
+}
+.card-row{
+  padding-top: 50px;
+}
+
+.card-box{
+  padding-bottom: 10px;
+}
+
+.pricing-card-title{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 550;
+}
+
+.card{
+  height: 100%;
+}
+
+.price-text{
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
+/* Call to action */
+
+#cta{
+  height: 300px;
+}
+
+.cta-txt{
+  font-size: 2rem;
+  padding-bottom: 20px;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+/* Footer */
+#footer{
+  height: 100px;
+}
+
+.foot-icon{
+  color: #666;
+  padding: 10px;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1000px){
+  .dog-phone{
+    position: static;
+    transform: rotate(0);
+    right: auto;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 1400px){
+
+  #pricing{
+      padding: 100px;
+    }
+
+
+}
